@@ -5,10 +5,9 @@ using namespace std;
 
 int main()
 {
-    float fmass;
-    float emass;
-    float isp;
-    float ev;
+    double fmass;
+    double emass;
+    double isp;
     cout << "isp" << endl;
     cin >> isp;
     cout << "full mass" << endl;
