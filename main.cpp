@@ -5,16 +5,16 @@ using namespace std;
 
 int main()
 {
-    double fmass;
-    double emass;
+    double fMass;
+    double eMass;
     double isp;
     cout << "isp" << endl;
     cin >> isp;
     cout << "full mass" << endl;
-    cin >> fmass;
+    cin >> fMass;
     cout << "empty mass" << endl;
-    cin >> emass;
-    cout << isp*9.8*log(fmass/emass);
+    cin >> eMass;
+    cout << isp*9.8*log(fMass/eMass);
     return 0;
 
 }
